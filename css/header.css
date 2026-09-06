@@ -1,82 +1,82 @@
 
+.header {
+  border-bottom: 1px solid #e7e9fc;
+}
 
-.address-link {
-    color: #434455;
-    list-style: none;
-    text-decoration: none;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    font-weight:400;
-  
+.header .container {
+  display: flex;
+  align-items: center;
 }
+
+
+.logo-header {
+  color: #2E2F42;
+  text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: 0.03em;
+  margin-right: 76px; 
+}
+
+.logo-web {
+  color: #4D5AE5;
+}
+
+.logo-studio {
+  color: #2E2F42;
+}
+
+
+.nav-list {
+  display: flex;
+  gap: 40px;
+ 
+}
+
 .nav-link {
-    color: #2E2F42;
-    list-style: none;
-    text-decoration: none;
-    font-size: 16px;
-    line-height: 1.5;
-    font-weight: 500;
-    letter-spacing: 0.02em;
-   
+  display: block;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  color: #2E2F42;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.logo-header{
-    color: #2E2F42;
-    text-decoration: none;
-   font-family: 'Raleway', sans-serif;
-   font-weight: 700;
-   font-size: 18px;
-   line-height: 1.33;
-   letter-spacing: 0.03em;
+
+.nav-link:hover,
+.nav-link:focus {
+  color: #404BBF;
 }
-.logo-studio{
-    color: #2E2F42;
+
+
+.contacts {
+  font-style: normal;
+  margin-left: auto;
 }
 
 .address-list {
-    list-style: none;
-    font-style: normal;
-    display: flex;
-    gap: 40px;
-    align-items: center;
-    padding-top: 24px;
-    padding-bottom: 24px;
-   
+  display: flex;
+  gap: 40px;
 }
 
-.nav-list {
-    list-style: none;
-    display: flex;
-    gap: 40px;
-    align-items: center;
-    padding-top: 24px;
-    padding-bottom: 24px;
-   
+.address-link {
+  display: block;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  color: #434455; 
+  text-decoration: none;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  font-weight: 400;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-
-.logo-web{
-    color: #4D5AE5;
-}
-
-.nav-link:hover{
-    color: #404BBF;
-}
-.nav-link:focus{
-    color: #404BBF;
-}
-
-.address-link:hover{
-    color: #404BBF;
-}
-
-.address-link:focus{
-    color: #404BBF;
-}
-
-.header {
-    display: flex;
-    justify-content: space-between;    
-    align-items: center;
-    gap: 40px;
-    
+.address-link:hover,
+.address-link:focus {
+  color: #404BBF;
 }
