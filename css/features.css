@@ -8,6 +8,10 @@
   gap: 24px;
 }
 
+.features-list li {
+  width: calc((100% - 72px) / 4);
+}
+
 .features-list h3 {
   color: #2E2F42;
   font-weight: 500;
