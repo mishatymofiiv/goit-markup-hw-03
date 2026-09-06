@@ -1,0 +1,29 @@
+.features-list p{
+    color: #434455;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+.features-list h3{
+    color: #2E2F42;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+.features-list{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+   
+    
+}
+
+.features{
+    gap: 24px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    
+}
